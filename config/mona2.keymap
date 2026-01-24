@@ -94,7 +94,7 @@
 &lt 5 Q    &kp W     &kp E         &kp R                 &kp T                            &kp Y      &kp U  &kp I      &kp O    &lt 5 P
 &kp A      &kp S     &kp D         &kp F                 &kp G             &kp F13        &kp H      &kp J  &kp K      &kp L    &lt 6 SEMICOLON
 &kp Z      &kp X     &kp C         &kp V                 &kp B  &kp F14    &kp LA(SPACE)  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LALT  &kp LEFT_WIN  &mt LEFT_SHIFT SPACE  &mo 1  &mo 3      &kp A          &kp ENTER                             &mo 5
+&kp LCTRL  &kp LALT  &kp LEFT_WIN  &mt LEFT_SHIFT SPACE  &mo 1  &kp A      &kp BACKSPACE  &kp ENTER                             &mo 5
             >;
 
             sensor-bindings = <&scroll_up_down>;
