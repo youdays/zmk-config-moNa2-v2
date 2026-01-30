@@ -26,12 +26,12 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <0 1>;
+            key-positions = <12 13>;
         };
 
         tab_2 {
             bindings = <&kp TAB>;
-            key-positions = <3 4>;
+            key-positions = <3 2>;
         };
 
         toLayer6 {
