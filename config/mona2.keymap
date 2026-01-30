@@ -96,10 +96,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W     &kp E         &kp R                 &kp T                                           &kp Y      &kp U  &kp I      &kp O    &lt 5 P
-&mt LEFT_CONTROL A  &kp S     &kp D         &kp F                 &kp G                    &kp LC(LS(SEMICOLON))  &kp H      &kp J  &kp K      &kp L    &lt 3 SEMICOLON
-&mt LEFT_SHIFT Z    &kp X     &kp C         &kp V                 &kp B  &kp LEFT_SHIFT    &kp LA(SPACE)          &kp N      &kp M  &kp COMMA  &kp DOT  &lt 5 SLASH
-&kp LCTRL           &kp LALT  &kp LEFT_WIN  &mt LEFT_SHIFT SPACE  &mo 1  &mo 3             &kp BACKSPACE          &kp ENTER                             &kp LEFT_SHIFT
+&kp Q               &kp W     &kp E         &kp R                 &kp T                                       &kp Y      &kp U  &kp I      &kp O    &lt 5 P
+&mt LEFT_CONTROL A  &kp S     &kp D         &kp F                 &kp G                &kp LC(LS(SEMICOLON))  &kp H      &kp J  &kp K      &kp L    &lt 3 SEMICOLON
+&mt LEFT_SHIFT Z    &kp X     &kp C         &kp V                 &kp B  &kp ESCAPE    &kp LA(SPACE)          &kp N      &kp M  &kp COMMA  &kp DOT  &lt 5 SLASH
+&kp LCTRL           &kp LALT  &kp LEFT_WIN  &mt LEFT_SHIFT SPACE  &mo 1  &mo 3         &kp BACKSPACE          &kp ENTER                             &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -129,10 +129,10 @@
 
         func {
             bindings = <
-&trans  &kp F7  &kp F8  &kp F9  &kp F12                    &mkp MB4        &mkp MB5      &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT))  &kp LS(LC(LG(N5)))
-&trans  &kp F4  &kp F5  &kp F6  &kp F11            &trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW          &kp RIGHT_ARROW    &kp LS(LG(N5))
-&trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans    &trans  &kp LG(X)       &kp LG(C)     &kp LG(LA(V))           &kp PAGE_DOWN      &kp LS(LA(LG(NUMBER_5)))
-&trans  &trans  &trans  &trans  &trans   &trans    &trans  &trans                                                                   &trans
+&trans  &kp F7  &kp F8  &kp F9  &kp F12                    &mkp MB4        &mkp MB5        &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT))  &kp LS(LC(LG(N5)))
+&trans  &kp F4  &kp F5  &kp F6  &kp F11            &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW            &kp RIGHT_ARROW    &kp LS(LG(N5))
+&trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans    &trans  &kp LG(X)       &kp LG(C)       &kp LG(LA(V))           &kp PAGE_DOWN      &kp LS(LA(LG(NUMBER_5)))
+&trans  &trans  &trans  &trans  &trans   &trans    &trans  &trans                                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
