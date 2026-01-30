@@ -119,4 +119,5 @@
 // キー入力後200msはトラックボールを動かしてもオートマウスレイヤーが発動しない
 &zip_temp_layer {
     require-prior-idle-ms = <200>;
+    excluded-positions = <11 12 13 17 18 19>;   // マウスボタン位置（左手MB3/MB2/MB1、右手MB1/MB2/MB3）を押してもレイヤー解除しない
 };
