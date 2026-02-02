@@ -131,7 +131,7 @@
             bindings = <
 &trans  &kp F7  &kp F8  &kp F9  &kp F12                    &mkp MB4        &mkp MB5        &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT))  &kp LS(LC(LG(N5)))
 &trans  &kp F4  &kp F5  &kp F6  &kp F11            &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW            &kp RIGHT_ARROW    &kp LS(LG(N5))
-&trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans    &trans  &kp LG(X)       &kp LG(C)       &kp LG(LA(V))           &kp PAGE_DOWN      &kp LS(LA(LG(NUMBER_5)))
+&trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans    &trans  &kp LG(X)       &kp LG(C)       &kp LG(LC(V))           &kp PAGE_DOWN      &kp LS(LA(LG(NUMBER_5)))
 &trans  &trans  &trans  &trans  &trans   &trans    &trans  &trans                                                                     &trans
             >;
 
@@ -151,10 +151,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &mkp MB3  &mkp MB2  &mkp MB1  &trans            &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans                                &trans
+&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                    &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I      &to_layer_0 O       &to_layer_0 P
+&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G            &trans  &to_layer_0 H  &mkp MB1       &mkp MB2           &mkp MB3            &to_layer_0 SEMICOLON
+&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans    &trans  &to_layer_0 N  &to_layer_0 M  &to_layer_0 COMMA  &to_layer_0 PERIOD  &to_layer_0 SLASH
+&trans         &trans         &trans         &trans         &trans         &trans    &trans  &trans                                                               &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
