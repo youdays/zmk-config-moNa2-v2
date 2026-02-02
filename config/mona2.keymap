@@ -34,7 +34,7 @@
             key-positions = <12 13>;
         };
 
-        toLayer6 {
+        toLayerBt {
             bindings = <&mo 4>;
             key-positions = <41 33>;
         };
@@ -110,7 +110,7 @@
 &kp TAB       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                     &kp BACKSLASH  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
 &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL            &trans  &kp GRAVE      &kp EQUAL         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
 &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &trans    &trans  &kp BACKSLASH  &kp MINUS         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE
-&trans        &trans        &trans        &trans        &trans     &trans    &trans  &trans                                                                        &trans
+&trans        &trans        &trans        &trans        &trans     &trans    &trans  &trans                                                                        &kp LANGUAGE_1
             >;
 
             sensor-bindings = <&scroll_right_left>;
