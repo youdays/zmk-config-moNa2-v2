@@ -35,7 +35,7 @@
         };
 
         toLayer6 {
-            bindings = <&mo 6>;
+            bindings = <&mo 4>;
             key-positions = <41 33>;
         };
 
@@ -96,10 +96,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W     &kp E         &kp R                 &kp T                                &kp Y      &kp U  &kp I      &kp O    &lt 5 P
-&kp A      &kp S     &kp D         &kp F                 &kp G                &kp LA(SPACE)   &kp H      &kp J  &kp K      &kp L    &lt 3 SEMICOLON
-&kp Z      &kp X     &kp C         &kp V                 &kp B  &kp ESCAPE    &kp LEFT_SHIFT  &kp N      &kp M  &kp COMMA  &kp DOT  &lt 5 SLASH
-&kp LCTRL  &kp LALT  &kp LEFT_WIN  &mt LEFT_SHIFT SPACE  &mo 1  &mo 3         &kp BACKSPACE   &kp ENTER                             &kp LANGUAGE_2
+&kp Q      &kp W     &kp E         &kp R                 &kp T                                &kp Y      &kp U  &kp I      &kp O    &lt 3 P
+&kp A      &kp S     &kp D         &kp F                 &kp G                &kp LA(SPACE)   &kp H      &kp J  &kp K      &kp L    &lt 2 SEMICOLON
+&kp Z      &kp X     &kp C         &kp V                 &kp B  &kp ESCAPE    &kp LEFT_SHIFT  &kp N      &kp M  &kp COMMA  &kp DOT  &lt 3 SLASH
+&kp LCTRL  &kp LALT  &kp LEFT_WIN  &mt LEFT_SHIFT SPACE  &mo 1  &mo 2         &kp BACKSPACE   &kp ENTER                             &kp LANGUAGE_2
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -116,17 +116,6 @@
             sensor-bindings = <&scroll_right_left>;
         };
 
-        none_1 {
-            bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp POUND          &kp DOLLAR  &kp PERCENT                      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp UNDERSCORE
-&kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SQT     &trans                  &trans   &mkp MB3   &mkp MB1       &mkp MB2      &kp EQUAL  &kp PLUS
-&kp F1           &kp F2       &kp F3             &kp F4      &kp F5       &kp F11    &kp F12  &kp F6     &kp F7         &kp F8        &kp F9     &kp F10
-&trans           &trans       &trans             &trans      &trans       &trans     &trans   &trans                                             &trans
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
-        };
-
         func {
             bindings = <
 &trans  &kp F7  &kp F8  &kp F9  &kp F12                    &mkp MB4        &mkp MB5        &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT))  &kp LS(LC(LG(N5)))
@@ -136,17 +125,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
-        };
-
-        none_2 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans  &trans  &trans  &trans            &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         MOUSE {
