@@ -93,7 +93,7 @@
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,         //Y軸反転
             //<&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
             //<&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
-            <&zip_temp_layer 3 1000>;                             //オートマウスレイヤー（1秒無操作でデフォルトレイヤーに戻る）
+            <&zip_temp_layer 3 5000>;                             //オートマウスレイヤー（5秒無操作でデフォルトレイヤーに戻る）
     };
 
     left_encoder: encoder_left {
